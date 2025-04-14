@@ -6,7 +6,7 @@ class Solution:
         
         l = len(s)
         if l == 1:
-            return s
+            return
 
         ia = 0
         ib = l - 1
@@ -17,7 +17,7 @@ class Solution:
             ia += 1
             ib -= 1
         
-        return s
+        return
     
         # time complexity: O(n)
         # space complexity: O(1)
